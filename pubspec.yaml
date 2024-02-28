@@ -9,7 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
+
+  firebase_core: ^2.16.0
+  
+  user_repository:
+    path: packages/user_repository
+  pizza_repository:
+    path: packages/pizza_repository
 
 dev_dependencies:
   flutter_test:
